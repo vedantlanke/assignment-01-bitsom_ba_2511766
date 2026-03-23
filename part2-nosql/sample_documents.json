@@ -1,0 +1,51 @@
+[
+  {
+    "_id": 101,
+    "name": "Apple iPhone 15",
+    "category": "Electronics",
+    "brand": "Apple",
+    "price": 79900,
+    "specifications": {
+      "ram": "6GB",
+      "storage": "128GB",
+      "processor": "A16 Bionic",
+      "voltage_requirement": "220V"
+    },
+    "warranty": {
+      "period_years": 1,
+      "type": "Manufacturer"
+    },
+    "customer_ratings": [5, 4, 5, 4]
+  },
+  {
+    "_id": 102,
+    "name": "Women Casual Kurti",
+    "category": "Clothing",
+    "brand": "Biba",
+    "price": 1499,
+    "sizes_available": ["S", "M", "L", "XL"],
+    "fabric": "Rayon",
+    "color_variants": ["Red", "Green", "Blue"],
+    "seller_details": {
+      "seller_name": "FashionHub",
+      "seller_rating": 4.3
+    }
+  },
+  {
+    "_id": 103,
+    "name": "Aashirvaad Whole Wheat Atta 5kg",
+    "category": "Groceries",
+    "brand": "ITC",
+    "price": 320,
+    "expiry_date": "2024-11-15",
+    "nutritional_information": {
+      "energy": "340 kcal",
+      "protein": "12 g",
+      "fiber": "10 g"
+    },
+    "warehouse_stock": [
+      { "city": "Bangalore", "quantity": 200 },
+      { "city": "Hyderabad", "quantity": 150 }
+    ]
+  }
+]
